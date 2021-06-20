@@ -5,7 +5,7 @@ import { ChatBot, AmplifyTheme } from 'aws-amplify-react';
 Amplify.configure({
   aws_project_region: 'ap-northeast-1',
   Auth: {
-    identityPoolId: 'ap-northeast-1:XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
+    identityPoolId: 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
     region: 'ap-northeast-1'
   },
   bots: {
